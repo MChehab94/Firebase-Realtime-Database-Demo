@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="mchehab.com.kotlinapp.EditPersonActivity">
+
+    <EditText
+        android:id="@+id/editTextFirstName"
+        style="@style/editText"/>
+
+    <EditText
+        android:id="@+id/editTextLastName"
+        style="@style/editText"/>
+
+    <EditText
+        android:id="@+id/editTextAge"
+        style="@style/editText"/>
+
+    <Button
+        android:id="@+id/button"
+        style="@style/defaultStyle"
+        android:text="Save"/>
+
+
+</LinearLayout>
